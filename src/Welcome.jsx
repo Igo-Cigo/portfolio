@@ -1,9 +1,9 @@
 import React from "react";
-
 function Welcome() {
   return (
     <div>
-      <h1>Welcome</h1>
+
+      <h1 className="padtop">Welcome</h1>
       <p>
         This is my portfilo
         <br />
