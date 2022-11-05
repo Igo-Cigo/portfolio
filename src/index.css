@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.pad {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.padtop {
+  padding-top: 10px;
 }
+
+.padbottom {
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: Quicksand, sans-serif !important;
+  display: block !important;
+  font-size: 27px !important;
+  margin-block-start: 0.83em !important;
+  margin-block-end: 0.83em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: bold !important;
+}
+
+body {
+  color: rgb(27, 77, 104) !important;
+  font-family: 'Sofia Pro', sans-serif !important;
+  background-color: #e0f4fc !important;
+  font-size: 18px !important;
+  text-decoration: none solid rgb(56, 63, 74);
+  word-spacing: 0px;
+}
+
+.lightblue {
+  background-color: #b1e3fa !important;
+  border-radius: 15px;
+}
+
+.height {
+  line-height: 40px;
+}
+
+.center{
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
