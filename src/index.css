@@ -72,10 +72,11 @@ li {
 }
 
 .copyright {
-  width: 552px;
+  width: 386px;
   margin: 0;
-  font-size: 15px;
+  font-size: 10px;
   margin: auto;
+  font-family: 'Secular One', sans-serif;
 }
 
 .cimage {
@@ -83,9 +84,14 @@ li {
   top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 45%;
 }
 
+.topnav-right {
+  float: right !important;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@200&display=swap");
 @import url("http://fonts.cdnfonts.com/css/sofia-pro");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');

@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Navigation from "./Navigation";
 import Tools from "./Tools";
 import Copyright from "./Copyright";
+import Info from "./Info";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/websites" element={<Websites />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tools" element={<Tools />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
       <div className="mr-auto">
         <hr />

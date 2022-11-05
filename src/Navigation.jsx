@@ -4,7 +4,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Navigation() {
   return (
-    <div className="pt-2">
+    <div className="pt-2 row">
       <Navbar className="navbar" variant="light">
         <Container>
           <div className="px-3 py-2">
@@ -28,8 +28,17 @@ function Navigation() {
                 alt="contact"
               />
             </Nav.Link>
+            <Nav.Link href="/info">
+              <img src="/svg/info-circle.svg" className="w-100" alt="info" />
+            </Nav.Link>
             <Nav.Link href="https://github.com/Igo-Cigo" target="_blank">
               <img src="/svg/github.svg" className="w-100" alt="github" />
+            </Nav.Link>
+            <Nav.Link
+              href="https://paypal.me/igorlubura?country.x=BA&locale.x=en_US"
+              target="_blank"
+            >
+              <img src="/svg/paypal.svg" className="w-100" alt="paypal" />
             </Nav.Link>
           </Nav>
         </Container>
