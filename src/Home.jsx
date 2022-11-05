@@ -7,7 +7,7 @@ export default function Home() {
         Hello <br /> My name is Igor
       </h1>
       <p>
-        I'm currently a front-end / golang developer interested in becoming a full time 
+        I'm currently a front-end / go / python developer interested in becoming a full time 
       </p>
       <p>
         I started with web development at just 9 years old when I used random

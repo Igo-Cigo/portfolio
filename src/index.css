@@ -19,20 +19,20 @@ h1 {
   margin-block-end: 0.83em !important;
   margin-inline-start: 0px !important;
   margin-inline-end: 0px !important;
-  font-weight: bold !important;
+  font-weight: 400 !important;
 }
 
 body {
   color: rgb(27, 77, 104) !important;
-  font-family: 'Sofia Pro', sans-serif !important;
-  background-color: #e0f4fc !important;
+  font-family: "Ubuntu", sans-serif !important;
+  background-color: #ffffff !important;
   font-size: 18px !important;
   text-decoration: none solid rgb(56, 63, 74);
   word-spacing: 0px;
 }
 
-.lightblue {
-  background-color: #b1e3fa !important;
+.navbar {
+  background-color: #ececec !important;
   border-radius: 15px;
 }
 
@@ -40,7 +40,7 @@ body {
   line-height: 40px;
 }
 
-.center{
+.center {
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -63,5 +63,29 @@ a:active {
   text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@200&display=swap');
-@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+.brand {
+  font-weight: 600;
+}
+
+li {
+  list-style-type: square;
+}
+
+.copyright {
+  width: 552px;
+  margin: 0;
+  font-size: 15px;
+  margin: auto;
+}
+
+.cimage {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@200&display=swap");
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
